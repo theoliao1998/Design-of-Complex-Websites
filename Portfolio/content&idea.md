@@ -17,4 +17,10 @@ Within the first billion years of Earth's history, life appeared in the oceans a
 # Neighbors
 
 ## Overview
-As part of the solar system, Earth has lived with 7 t other bi planets
+As part of the solar system, Earth has lived with 7 other other big planets, the sun, and the moon for billions of years. (A panamera of solar system.)
+
+## Sun
+The Sun is the Solar System's star and by far its most massive component. Its large mass (332,900 Earth masses), which comprises 99.86% of all the mass in the Solar System, produces temperatures and densities in its core high enough to sustain nuclear fusion of hydrogen into helium, making it a main-sequence star.
+
+## Moon
+The Moon is a relatively large, terrestrial, planet-like natural satellite, with a diameter about one-quarter of Earth's. It is the largest moon in the Solar System relative to the size of its planet, although Charon is larger relative to the dwarf planet Pluto. The natural satellites of other planets are also referred to as "moons", after Earth's.
