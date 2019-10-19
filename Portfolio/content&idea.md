@@ -48,19 +48,19 @@ Uranus is the lightest of the outer planets. Uniquely among the planets, it orbi
 Neptune, though slightly smaller than Uranus, is more massive and hence more dense. It radiates more internal heat, but not as much as Jupiter or Saturn. Neptune has 14 known satellites. The largest, Triton, is geologically active, with geysers of liquid nitrogen. Triton is the only large satellite with a retrograde orbit. Neptune is accompanied in its orbit by several minor planets, termed Neptune trojans, that are in 1:1 resonance with it.
 
 
-## Gallary
+# Gallary
 (Pictures in images folder)
 
-## Others
+# Others
 
-# Hazards
+## Hazards
 Large areas of Earth's surface are subject to extreme weather such as tropical cyclones, hurricanes, or typhoons that dominate life in those areas.  Many localized areas are subject to human-made pollution of the air and water, acid rain and toxic substances, loss of vegetation (overgrazing, deforestation, desertification), loss of wildlife, species extinction, soil degradation, soil depletion and erosion. There is a scientific consensus linking human activities to global warming due to industrial carbon dioxide emissions. This is predicted to produce changes such as the melting of glaciers and ice sheets, more extreme temperature ranges, significant changes in weather and a global rise in average sea levels.
 
-# Contact Us
+## Contact Us
 If you have any advice on the website, or want to know more about the Earth, feel free to contact us!  
 (A contact form)
 
-# Refernce
+## Refernce
 * "Earth", Wikipedia, https://en.wikipedia.org/wiki/Earth  
 * "Solar system", Wikipedia, https://en.wikipedia.org/wiki/Solar_System#Sun  
 * Bryner, Michelle, "How Did Earth Get Its Name?", LIVESCIENCE, https://www.livescience.com/32274-how-did-earth-get-its-name.html
