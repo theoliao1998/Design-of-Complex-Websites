@@ -64,3 +64,9 @@ footer{
     background: green;
     text-align: left;
 }
+
+@media print {
+    img {
+        display: none;
+    }
+}

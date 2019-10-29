@@ -1,18 +1,15 @@
-html{
-    scroll-behavior: smooth;
-}
-
 body{
     font-family: 'Quicksand', sans-serif;
-    background-image: url("../images/universe.jpg");
+    /* background-image: url("../images/universe.jpg");
     background-repeat: repeat;
-    /* background-color: black; */
-    background-attachment:fixed;
+    background-attachment:fixed; */
     line-height: normal;
+    /* position: fixed; */
      /* width: 100vw; */
     /* margin-left:1vw; */
     /* margin-right:8vw; */
 }
+
 
 .navigation {
 
@@ -30,7 +27,7 @@ body{
   z-index: 10000; */
 }
 
-.this_page {
+.here {
   border-radius: .5rem;
 	border: 1px solid rgba(0,180,220,0.5);
 	background: linear-gradient(180deg,rgba(0,180,220,0.3),rgba(0,180,220,0.1),rgba(0,180,220,0.1),rgba(0,180,220,0.3));
@@ -62,7 +59,7 @@ li {
 
 
 .occupy{
-    height: 0px;
+    display: none;
 }
 
 .box{
@@ -123,6 +120,7 @@ a:active {
   grid-template-columns: 3fr 1fr;
   grid-column-gap: 15px;
   width: 100vw;
+  transition: all 0.2s;
 }
 
 .flexcontainer{
@@ -142,6 +140,7 @@ a:active {
   transition: all 0.5s;
   margin: 5px;
   overflow: hidden;
+  opacity: 0.7;
   /* width: 100%;
   height: 60%; */
 }
@@ -149,10 +148,14 @@ a:active {
 .text:focus,
 .text:hover{
   box-shadow:  0 0 5rem rgb(0,110,150);
-  height: 50vh;
+  /* height: 60vh; */
   border: 20px solid transparent;
 	border-image: url(../images/border.png) 5%;
   transition: all 0.5s;
+  opacity: 1;
+  height: 100%;
+  /* overflow: hidden; */
+  /* z-index: 999; */
 }
 
 footer{
@@ -167,6 +170,9 @@ footer p{
     color: white;
 }
 
+.out{
+  transform: translateX(-100%);
+}
 
 @media all and (min-width:500px){
   .navigation{
@@ -188,11 +194,11 @@ footer p{
   .navigation a{
     text-align:center;
     border-top:2px solid rgba(255,255,255,.2);
-      border-bottom:2px solid rgba(0,0,0,.1);
+    border-bottom:2px solid rgba(0,0,0,.1);
   }
 
   .occupy{
-      height: 10vh;
+      display: block;
   }
 
   .flexcontainer{
@@ -207,11 +213,16 @@ footer p{
     position: fixed;
     right:3vw;
     top:15vh;
+    opacity: 0.5;
     /*  */
   }
 
+  .contenttabel:hover{
+    opacity: 1;
+  }
+
   .text:hover{
-    height: 60vh;
+    height: 100vh;
   }
 
 
