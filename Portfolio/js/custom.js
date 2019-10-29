@@ -9,7 +9,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		linkLocation = this.href;
 		// $("iframe").fadeOut(1000, redirectPage);
-		$("body").fadeOut(1000, redirectPage);		
+		$("body").fadeOut(500, redirectPage);		
 	});
 		
 	function redirectPage() {
