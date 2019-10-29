@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>JavaScript</title>
+</head>
+<body>
+ You may not change the structure of the ordered list in any way, or add any ids or classes to it or the list items.
+ <ol>
+ <li>Blah</li>
+ <li>Blah</li>
+ <li>Blah</li>
+ <li>Blah</li>
+ <li>Blah</li>
+ <li>Blah</li>
+ <li>Blah</li>
+ <li>Blah</li>
+ <li>Blah</li>
+</ol>
+ <label>
+ <input type="radio" value = "red">
+ Red
+ </label>
+ <label>
+ <input type="radio" value = "blue">
+ Blue
+ </label>
+
+</fieldset>
+<script type="text/javascript"> 
+// YOUR CODE HERE
+window.onclick = function(e) {
+    let num = e.target.getAttribute('value')=="red" ? 1 : 0;
+    document.getElementsByTagName('input')[num].checked = false;
+    document.getElementsByTagName("li")[4].style.color = e.target.getAttribute('value');
+} 
+
+</script>
+</body>
+</html>
