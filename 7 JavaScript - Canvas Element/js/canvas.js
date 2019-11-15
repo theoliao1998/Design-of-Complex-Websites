@@ -1,5 +1,5 @@
 window.onload = function(){
-    myCanvas["width"] = String(window.innerWidth*0.8);
+    myCanvas["width"] = window.innerWidth*0.8;
     myCanvas["height"] = String(window.innerHeight*0.8);
 }
 

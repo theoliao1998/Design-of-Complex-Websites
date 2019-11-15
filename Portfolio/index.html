@@ -3,43 +3,99 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/background.css">
-    <link rel="stylesheet" type="text/css" href="css/scrollbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/scrollbar.css"> -->
     <link rel="stylesheet" type="text/css" href="css/style.css"> 
-    <title>Earth - About</title>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151638485-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-151638485-1');
+    </script>
+
+    <title>Earth - Home</title>
   </head>
   <body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    
+    <header class="hit-the-floor">🌎 Earth - Explore the unkown!</header>
 
     <nav>
 
       <ul class="navigation">
-        <li class="here"><a class="page" href="#">About</a></li>
-        <li><a href="#">Neighbors</a></li>
-        <li><a href="#">Gallary</a></li>
+        <li class="here"><a class="page" href="index.html">Home</a></li>
+        <li><a class="page" href="about.html">About Earth</a></li>
+        <li><a class="page" href="neighbors.html">Earth's Neighbors</a></li>
+        <li><a class="page" href="gallery.html">Gallery</a></li>
         <li><a class="page" href="others.html">Others</a></li>
       </ul>
     </nav>
 
-    <div class="occupy"></div>
-
-    <div class="gridcontainer" id="myDiv">
-      <div class="flexcontainer">
-        <div class='text box' tabindex="0" id="P1">Paragrah 1</div>
-        <div class='text box' tabindex="0" id="P2">Paragrah 2</div>
-        <div class='text box' tabindex="0" id="P3">Paragrah 3</div>
+    <main id="main">
+    <!-- <div id="title" class="box"> -->
+    
+    <h1>Just explore the unkown!</h1>
+    
+    <div class="flip-cards-flex">
+    
+      
+    <div class="flip-card box" tabindex="0">
+        <div class="flip-card-inner">
+          <div class="flip-card-front" id="flip-card-about">
+              <span>About Earth</span>
+            <!-- <img src="images/about/earth.jpg" alt="About Earth"> -->
+          </div>
+          <a class="flip-card-back" href="about.html">
+            About Earth
+          </a>
+        </div>
+      </div>
+    
+      <div class="flip-card box" tabindex="0">
+        <div class="flip-card-inner">
+          <div class="flip-card-front" id="flip-card-neighbors">
+            <span>Earth's Neighbors</span>
+          </div>
+          <a class="flip-card-back" href="neighbors.html">
+            Earth's Neighbors
+          </a>
+        </div>
       </div>
 
-        <div class='contenttabel'>
-	         <div class='contenttabel-head'>Content</div>
-	          <a href="#P1" class='contenttabel-body'>Paragrah 1</a>
-            <a href="#P2" class='contenttabel-body'>Paragrah 2</a>
-            <a href="#P3" class='contenttabel-body'>Paragrah 3</a>
+      <div class="flip-card box" tabindex="0">
+        <div class="flip-card-inner">
+          <div class="flip-card-front" id="flip-card-gallery">
+            <span>Gallery</span>
+          </div>
+          <a class="flip-card-back" href="gallery.html">
+            Gallery
+          </a>
         </div>
+      </div>
 
-    </div>
-
-    <div class="occupy"></div>
+      <div class="flip-card box" tabindex="0">
+        <div class="flip-card-inner">
+          <div class="flip-card-front" id="flip-card-others">
+            <span>Others</span>
+          </div>
+          <a class="flip-card-back" href="others.html">
+            Others
+          </a>
+        </div>
+      </div>
+      </div>
+      <div class="occupy" id="bottom"></div>
+    </main>
+      
+    
 
     <footer>
       <p class="box">&copy;2019 theoliao <br/>
@@ -47,6 +103,6 @@
     </footer>
 
   </body>
-  <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
 </html>
