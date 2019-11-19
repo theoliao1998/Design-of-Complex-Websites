@@ -5,7 +5,7 @@ for (let i=0; i<document.getElementsByClassName("preview").length; i++){
     }
 }
 
-// still need to enable focus,blur, and mouseleave functions
+// still need to enable focus, blur, and mouseleave functions
 // check the jQuery one
 
 
