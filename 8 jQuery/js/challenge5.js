@@ -1,5 +1,4 @@
 function defaultContent(){
-    console.log("leave");
     $("#image").css({"background":"url('')",'background-color': '#8e68ff'});
     $("#image").text("Hover over an image below.");
 }
