@@ -39,7 +39,7 @@
 			city =  "Ann Arbor"
 		}
 		let key = "102a08cd86d52f604b440bf9efb5e320";
-		let query = "http://api.openweathermap.org/data/2.5/weather?q="+encodeURIComponent(city)+"&units="+units+"&APPID="+key;
+		let query = "https://api.openweathermap.org/data/2.5/weather?q="+encodeURIComponent(city)+"&units="+units+"&APPID="+key;
         console.log("Query is :" + query)
 
         $.getJSON(query,function(json){
